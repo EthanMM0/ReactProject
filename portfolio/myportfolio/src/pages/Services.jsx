@@ -1,6 +1,13 @@
 import React from 'react';
 import './Services.css';
 
+/*
+File name: Services.jsx
+Student Name: Ethan Micciola
+Student ID: 301259110
+Date: 2024-09-27
+*/
+
 const Services = () => {
   return (
     <div className="services">

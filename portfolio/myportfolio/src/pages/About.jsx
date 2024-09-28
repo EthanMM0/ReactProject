@@ -1,6 +1,13 @@
 import React from 'react';
 import './About.css';
 
+/*
+File name: About.jsx
+Student Name: Ethan Micciola
+Student ID: 301259110
+Date: 2024-09-27
+*/
+
 const About = () => {
   return (
     <div className="about">

@@ -1,3 +1,10 @@
+/*
+File name: index.js
+Student Name: Ethan Micciola
+Student ID: 301259110
+Date: 2024-09-27
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
