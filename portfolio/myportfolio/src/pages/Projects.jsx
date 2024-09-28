@@ -8,12 +8,15 @@ Student ID: 301259110
 Date: 2024-09-27
 */
 
-
+/* Projects Component */
 const Projects = () => {
   return (
     <div className="projects">
+      {/* Projects Heading */}
       <h1>My Projects</h1>
+      {/* Project Grid Container */}
       <div className="project-grid">
+        {/* Individual Project Item */}
         <div className="project-container">
           <div className="project">
             <img src="port.png" alt="Project 1" />
@@ -21,6 +24,7 @@ const Projects = () => {
             <p>React site for the purpose of showcasing my skills through a portfolio.</p>
           </div>
         </div>
+        {/* Individual Project Item */}
         <div className="project-container">
           <div className="project">
             <img src="note.jpg" alt="Project 2" />
@@ -28,6 +32,7 @@ const Projects = () => {
             <p>This project allows the user to create a notepad-like list to make a to-do list such as grocery list, medications, or homework.</p>
           </div>
         </div>
+        {/* Individual Project Item */}
         <div className="project-container">
           <div className="project">
             <img src="calc.jpg" alt="Project 3" />

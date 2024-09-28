@@ -8,6 +8,7 @@ Date: 2024-09-27
 import React from 'react';
 import './logo.css';
 
+/* Logo Component */
 const Logo = () => {
   return (
     <div className="logo">
@@ -15,5 +16,6 @@ const Logo = () => {
     </div>
   );
 }
+
 
 export default Logo;

@@ -5,22 +5,22 @@ Student ID: 301259110
 Date: 2024-09-27
 */
 
-
+/* Logo Styles */
 .logo {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    font-weight: bold;
-    font-size: 0.75rem;
-  }
-  
-  .logo-icon {
-    background-color: #ff6347;
-    color: white;
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 0.75rem;
-    width: 50px; 
-    height: 50px;    
-  }
-  
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+/* Logo Icon Styles */
+.logo-icon {
+  background-color: #ff6347;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 0.75rem;
+  width: 50px; 
+  height: 50px;    
+}

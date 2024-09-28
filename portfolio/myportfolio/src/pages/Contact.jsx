@@ -8,7 +8,9 @@ Student ID: 301259110
 Date: 2024-09-27
 */
 
+// Contact Component
 const Contact = () => {
+  //hold form data
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -16,10 +18,12 @@ const Contact = () => {
     message: ''
   });
 
+  // Handle input changes
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);  
@@ -30,6 +34,7 @@ const Contact = () => {
     <div className="contact">
       <h1>Contact Me</h1>
       <form onSubmit={handleSubmit}>
+        {/* First Name Input */}
         <input
           type="text"
           name="firstName"
@@ -37,6 +42,8 @@ const Contact = () => {
           value={formData.firstName}
           onChange={handleChange}
         />
+        
+        {/* Last Name Input */}
         <input
           type="text"
           name="lastName"
@@ -44,6 +51,8 @@ const Contact = () => {
           value={formData.lastName}
           onChange={handleChange}
         />
+        
+        {/* Email Input */}
         <input
           type="email"
           name="email"
@@ -51,12 +60,16 @@ const Contact = () => {
           value={formData.email}
           onChange={handleChange}
         />
+        
+        {/* Message Textarea */}
         <textarea
           name="message"
           placeholder="Message"
           value={formData.message}
           onChange={handleChange}
         />
+        
+        {/* Submit Button */}
         <button type="submit" className="btn">Submit</button>
       </form>
     </div>

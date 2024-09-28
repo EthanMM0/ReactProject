@@ -5,7 +5,7 @@ Student ID: 301259110
 Date: 2024-09-27
 */
 
-
+/* Services Section */
 .services {
     padding: 50px;
     background-color: #f4f4f4;
@@ -15,12 +15,14 @@ Date: 2024-09-27
     flex-direction: column; /* Align content in column format */
 }
 
+/* Services Heading */
 .services h1 {
     font-size: 2.5rem;
     color: #333;
     text-align: center; /* Center the heading */
 }
 
+/* Services Grid Container */
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -29,11 +31,13 @@ Date: 2024-09-27
     margin: 0 auto; /* Center the grid container */
 }
 
+/* Individual Service Item */
 .service-container {
     border: 1px solid #000; /* 4px thick border */
     padding: 15px; /* 10px space around the service */
 }
 
+/* Service Card */
 .service {
     background-color: white;
     padding: 20px;
@@ -43,10 +47,12 @@ Date: 2024-09-27
     transition: box-shadow 0.3s ease;
 }
 
+/* Service Hover Effect */
 .service:hover {
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Service Image */
 .service img {
     max-width: 100%;
     height: auto;
@@ -54,6 +60,7 @@ Date: 2024-09-27
     margin-bottom: 15px;
 }
 
+/* Service Title */
 .service h3 {
     font-size: 1.5rem;
     color: #333;

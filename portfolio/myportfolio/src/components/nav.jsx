@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import Logo from './logo';
 import './Navbar.css';
 
+/* Navbar Component */
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -24,5 +25,6 @@ const Navbar = () => {
     </nav>
   );
 }
+
 
 export default Navbar;
